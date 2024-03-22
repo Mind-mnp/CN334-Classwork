@@ -39,3 +39,14 @@ def item_view(request, item_id):
     }
     return render(request, 'index.html', context=context_data)
 
+#HomeWork 28/01/2024
+def homepage(request):
+    return render(request, 'homepage.html')
+def categorypage(request):
+    return render(request, 'Categorypage.html')
+def productpage(request):
+    return render(request, 'Productpage.html')
+def checkoutpage(request):
+    return render(request, 'Checkoutpage.html')
+def contactpage(request):
+    return render(request, 'Contactpage.html')
